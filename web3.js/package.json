@@ -58,7 +58,7 @@
     "test:live-with-test-validator": "start-server-and-test 'solana-test-validator --reset --quiet' http://localhost:8899/health test:live"
   },
   "dependencies": {
-    "@babel/runtime": "^7.12.5",
+    "@babel/runtime": "^7.26.10",
     "@ethersproject/sha2": "^5.5.0",
     "@solana/buffer-layout": "^3.0.0",
     "bn.js": "^5.0.0",
@@ -68,7 +68,7 @@
     "cross-fetch": "^3.1.4",
     "jayson": "^3.4.4",
     "js-sha3": "^0.8.0",
-    "rpc-websockets": "^7.4.2",
+    "rpc-websockets": "^7.11.2",
     "secp256k1": "^4.0.2",
     "superstruct": "^0.14.2",
     "tweetnacl": "^1.0.0"
